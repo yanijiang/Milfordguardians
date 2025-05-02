@@ -1,0 +1,316 @@
+@import url('https://fonts.googleapis.com/css2?family=Lexend+Deca&display=swap');
+
+
+
+
+body {
+    font-family: 'Lexend Deca', sans-serif;
+    padding-top: 55px;
+    font-size: 21px;
+    margin: 30px;
+    background-color: rgb(238, 238, 238);
+}
+
+h1 {
+    text-align: center;
+}
+
+h2{
+    text-align: center;
+}
+
+.nav-box {
+    position: fixed;
+    top: 0%;
+    z-index: 999;
+    width: 100%;
+    height: 70px;
+    background-color: rgb(34, 75, 9);
+    padding: 10px;
+    left: 0;
+    display: flex;
+    justify-content: left;
+}
+
+.nav-box a {
+    color: white;
+    margin-left: 30px;
+    text-decoration: none;
+    line-height: 70px;
+    text-align: left;
+    font-size: 25px;
+}
+
+.nav-logo{
+    display: block;
+    height: 70px;
+    line-height: 70px;
+}
+
+.logo-link{
+display: flex;
+align-items: center;
+text-decoration: none;
+color: white;
+margin-left: 30px;
+}
+
+.logo-text{
+    line-height: 70px;
+}
+
+.MS-img {
+    height: 400px;
+    width: 700px;
+    object-fit: cover;
+    margin-top: 20px;
+    margin-bottom: 40px;
+    border-radius: 15px;
+}
+
+.MS-img2 {
+    height: 300px;
+    width: 700px;
+    object-fit: cover;
+    margin-top: 20px;
+    border-radius: 15px;
+}
+
+
+
+.footer-content {
+    background-color: rgb(34, 75, 9);
+    color: white;
+    padding: 2px;
+    text-align: center;
+    font-size: 20px;
+    margin-top: 0;
+    margin-left: -30px;
+    margin-right: -30px;
+    margin-bottom: -30px;
+
+}
+
+footer{
+    margin-top: 60px;
+}
+
+a {
+    color: #1d51ee;
+    text-decoration: none;
+}
+
+p2{
+text-align: center;
+}
+
+a:hover {
+    color: #7392f0;
+}
+
+
+
+.grid-2-cols {
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    align-items: center;
+    gap: 60px;
+
+}
+
+
+.Tourism-impacts {
+    margin-bottom: 70px;
+}
+
+.hero {
+    position: relative;
+    height: 600px;
+    background-image: url(Images/Home\ hero\ img.jpg);
+    background-size: cover;
+    background-position: center;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-top: -30px;
+    margin-left: -30px;
+    margin-right: -30px;
+    margin-bottom: 50px;
+}
+
+.hero-history{
+    position: relative;
+    height: 300px;
+    background-image: url(Images/History\ 1.jpg);
+    background-size: cover;
+    background-position: center;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-top: -30px;
+    margin-left: -30px;
+    margin-right: -30px;
+    margin-bottom: 50px;
+}
+
+.hero-challenges{
+    position: relative;
+    height: 300px;
+    background-image: url(Images/Current\ Challenges\ Waste\ and\ Litter.jpg);
+    background-size: cover;
+    background-position: center;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-top: -30px;
+    margin-left: -30px;
+    margin-right: -30px;
+    margin-bottom: 50px;
+}
+
+.hero-help{
+    position: relative;
+    height: 300px;
+    background-image: url(Images/How\ to\ help-volunteer.jpg);
+    background-size: cover;
+    background-position: center;
+    display: flex;
+    object-fit: cover;
+    justify-content: center;
+    align-items: center;
+    margin-top: -30px;
+    margin-left: -30px;
+    margin-right: -30px;
+    margin-bottom: 50px;
+}
+
+.hero-discover{
+    position: relative;
+    height: 300px;
+    background-image: url(Images/Discover-img.jpg);
+    background-size: cover;
+    background-position: center;
+    display: flex;
+    object-fit: cover;
+    justify-content: center;
+    align-items: center;
+    margin-top: -30px;
+    margin-left: -30px;
+    margin-right: -30px;
+    margin-bottom: 50px;
+}
+
+
+
+.hero-text {
+    color: white;
+    border-radius: 10px;
+    padding: 20px 40px;
+    text-align: center;
+    text-shadow: 2px 2px 8px rgba(0, 0, 0, 0.8);
+    font-size: 30px;
+}
+
+.hero-text h1 {
+    font-size: 50px;
+    text-align: center;
+}
+
+
+.info-section {
+    position: relative;
+    background-image: url(Images/info\ section\ img.jpg);
+    background-size: cover;
+    background-position: center;
+    margin-left: -30px;
+    margin-right: -30px;
+    margin-bottom: -60px;
+    margin-top: 20px;
+    padding-bottom: 30px;
+}
+
+
+.info-blocks {
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(280px, 1fr));
+    gap: 50px;
+    margin: 20px;
+    justify-items: center;
+}
+
+.info-card {
+    width: 400px;
+    background-color: rgb(238, 238, 238);
+    padding: 20px;
+    text-align: center;
+    border-radius: 15px;
+    box-shadow: 0 4px 15px rgba(0, 0, 0, 0.1);
+}
+
+
+.info-card-img {
+    width: 300px;
+    height: 170px;
+    border-radius: 15px;
+    object-fit: cover;
+}
+
+.info-heading{
+    color: white;
+    margin: 5px;
+    text-align: center;
+    text-shadow: 2px 2px 8px rgba(0, 0, 0, 0.8);
+    font-size: 30px;
+}
+
+
+details{
+    margin-bottom: 10px;
+    padding: 8px;
+    background-color:rgb(238, 238, 238) ;
+    border: 1px solid #ccc;
+    cursor: pointer;
+}
+
+summary{
+    font-size: 25px;
+    cursor: pointer;
+}
+
+summary:hover{
+    color: #7392f0;
+}
+
+.email-link{
+    color: white;
+    text-decoration: underline;
+}
+
+.map-container{
+    text-align: center;
+}
+
+@media (max-width: 650px) {
+    .grid-2-cols { grid-template-columns: 1fr; }
+    .MS-img, .MS-img2 { width: 100%; height: auto; }
+    body{ font-size: 16px;}
+  }
+
+  .image-credit{
+    position: absolute;
+    bottom:60px;
+    right: 20px;
+    background-color: #0d1222;
+    opacity: 0.7;
+    color: #e8f0ee;
+    padding: 5px 10px;
+    border-radius: 4px;
+    font-size: 14px;
+    font-family: Lexend Deca, sans-serif;
+    z-index: 2;
+  }
+
+  .image-container{
+    position: relative;
+  display: inline-block;
+  }
